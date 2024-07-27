@@ -3,7 +3,11 @@ defaults:
   - experiments: experiment_with_resnet50
   - loss_function: arcface
   - override experiments: experiment_with_resnet18
+  - override hydra/job_logging: disabled # it disable all logging level
   - _self_
 
 experiments:
   optimizer: SGD
+
+# hydra:         # for activate Debug log
+#   verbose: true

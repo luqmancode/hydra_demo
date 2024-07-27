@@ -1,6 +1,7 @@
 defaults:
   - config_to_merge
   - experiments: experiment_with_resnet50
+  - loss_function: arcface
   - override experiments: experiment_with_resnet18
   - _self_
 

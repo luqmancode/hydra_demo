@@ -2,3 +2,4 @@ training:
   batch_size: 126
   no_epochs: 30
   lr: 5e-4
+  scheduler: ???
